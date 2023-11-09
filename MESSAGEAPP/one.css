@@ -57,12 +57,12 @@ img{
     border-bottom-left-radius: 1em;
 }
 .radius1:hover{
-    background-color: rgb(241, 142, 20);
+    background-color: rgb(241, 86, 20);
 }
 .radius2{
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
-    background-color: rgb(241, 142, 20);
+    background-color: rgb(241, 86, 20);
 }
 .radius2:hover{
     background-color:rgba(64, 64, 64, 0.312) ;
@@ -83,7 +83,7 @@ img{
 .first_message{
     display: flex;
     padding: 0.4em;
-    border: 1px solid rgb(241, 142, 20);
+    border: 1px solid rgb(241, 86, 20);
     align-items: center;
     justify-content: center;
     gap: 2px;
@@ -91,4 +91,15 @@ img{
 }
 img:hover{
     transform: scale(1.03);
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(194, 80, 20);
+    position: relative;
+    bottom: 123px;
+    padding: .3rem;
+    outline: solid 3px gray;
 }
