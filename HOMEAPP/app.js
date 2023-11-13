@@ -383,42 +383,93 @@
 
 
 
-//removing the elements in an DOM
+//removing the elements in an DOM----video-25
 
-const listen_input_user=document.getElementById('items_add');
-const listen_my_button=document.getElementById('Add_buttons');
-const get_user_data=document.getElementById('list_data');
-console.log(listen_input_user);
-console.log(listen_my_button);
-console.log(get_user_data);
-listen_my_button.addEventListener('click', ()=>{
+// const listen_input_user=document.getElementById('items_add');
+// const listen_my_button=document.getElementById('Add_buttons');
+// const get_user_data=document.getElementById('list_data');
 
-    //create element manually
-    const list=document.createElement('li');
-    list.className='datas';
-    const element=document.createElement('div');
-    const text=document.createTextNode(listen_input_user.value.toUpperCase());
-    element.append(text);
+// listen_my_button.addEventListener('click', ()=>{
+
+//     //create element manually
+//     const list=document.createElement('li');
+//     list.className='datas';
+//     const element=document.createElement('div');
+//     const text=document.createTextNode(listen_input_user.value.toUpperCase());
+//     element.append(text);
     
 
-    const first_div=document.createElement('div');
+//     const first_div=document.createElement('div');
     
-    first_div.innerHTML=` <i class="fa fa-trash"></i>`;
-    first_div.className='dle';
-    list.append(element,first_div)
-    get_user_data.append(list);
+//     first_div.innerHTML=` <i class="fa fa-trash"></i>`;
+//     first_div.className='dle';
+//     list.append(element,first_div)
+//     get_user_data.append(list);
 
-    first_div.parentElement.setAttribute("onclick","removingItem(event)")
+//     first_div.parentElement.setAttribute("onclick","removingItem(event)")
 
-//     <li class="datas">
-//     <div>CARS</div>
-//     <div onclick="removingItem(event)"  class="dle"> 
-//       <i class="fa fa-trash"></i>
-//   </div>
-})
+// //     <li class="datas">
+// //     <div>CARS</div>
+// //     <div onclick="removingItem(event)"  class="dle"> 
+// //       <i class="fa fa-trash"></i>
+// //   </div>
+// })
 
-function removingItem(event){
-let dleItem=event.target.parentNode.parentNode;
-dleItem.remove();
+// function removingItem(event){
+// let dleItem=event.target.parentNode.parentNode;
+// dleItem.remove();
 
-}
+// }
+
+
+
+
+
+
+
+//video-25 traversing the DOM elements 
+
+// const get_items=document.querySelectorAll(".list_data li");
+// console.log(get_items);
+
+// for(let items of get_items){
+//     console.log(items.innerText);
+// }
+
+// get_items.forEach((find) =>console.log(find.innerText));
+
+// const items=Array.from(get_items).forEach((find) =>console.log(find.innerText));
+// console.log(items);
+
+// const itemss=[...get_items].forEach( food =>{
+//     console.log(food.innerText);
+// })
+
+
+
+
+//video---27 finding the child DOM elements
+
+// const listen_parent=document.querySelector(".list_data");
+// console.log(listen_parent.childNodes);
+// console.log(listen_parent.children);
+// console.log(listen_parent.childElementCount);
+// console.log(listen_parent.length);
+// console.log(listen_parent);
+// console.log(listen_parent.className);
+// console.log(listen_parent.classList);
+// console.log(typeof listen_parent);
+// console.log(listen_parent.firstChild);
+// console.log(listen_parent.firstElementChild);
+
+
+// const listen_par=document.querySelectorAll(".list_data");
+// console.log(listen_par);
+// console.log(listen_par.children);
+
+// const list_data=document.querySelectorAll("li");
+// console.log(list_data.length);
+
+
+
+//video-28   finding DOM parent elements
