@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"npx tailwindcss -i ./src/input.css -o ./Wish_List_App/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./BLUE_CARDS/output.css --watch"
   },
   "author": "",
   "license": "ISC",
