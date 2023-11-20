@@ -29,19 +29,31 @@
 
 //function Expression
 
-const names=function (a,b) {
-   return a+b;
-}
+// const namesw=function (a,b=4) {
+//    return a+b;
+// }
 
 
-console.log(names(2,34));
+// namesw(2,34);//36
+// namesw(2);//6
 
 
 
-function names1(a,b){
-    return a+b;
-}
-names1(2,3);
+
+
+
+// function names1(a,b){
+//     return a+b;
+// }
+// names1(2,3);
+
+
+
+
+// function names3(a,...b){
+//     return a+b;
+// }
+// names3(2,3,4,5,6,7);
 
 
 

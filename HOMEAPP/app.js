@@ -1,3 +1,90 @@
+//This and window Object
+
+// console.log(this);//window
+// const b= ()=>{
+//     console.log(this);//window
+// }
+// b();
+
+// function area(){
+//     console.log(this);//window
+// }
+// area();
+
+// var hello=function(){
+//     console.log(this);
+// }
+// hello();
+
+// const all={
+//     a:90,
+//     meth:function(){
+//        console.log(this);;//x
+//     }
+
+// }
+// all.meth; //x
+
+
+// const ap=all.meth;
+// ap();//window
+
+
+
+
+'use strict'
+
+function name(){
+    console.log(this);//undefined
+}
+name();
+
+console.log(this);//window
+
+const k=()=>{
+    console.log(this);//window
+}
+k();
+
+
+const obj={
+    b:90,
+    start:function(){
+        console.log(this);//obj
+        function area(){
+            console.log(this);//undefined
+        }
+        area();
+    },
+    end:()=>{
+        console.log(this);
+    }
+}
+obj.end();
+console.log("k"+ obj.end());
+
+
+obj.start
+
+const j=obj.start;
+j(); //undefined and undefined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Task getElementById video-12
 // const listen_items= document.getElementById("items_add");
 

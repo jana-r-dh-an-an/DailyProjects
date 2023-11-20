@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./BLUE_CARDS/*.{html,js}"],
+  content: ["./DOUBLE_POPUPS/*.{html,js}"],
   theme: {
     extend: {},
   },
