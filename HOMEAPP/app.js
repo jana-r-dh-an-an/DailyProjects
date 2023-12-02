@@ -472,41 +472,41 @@ j(); //undefined and undefined
 
 //removing the elements in an DOM----video-25
 
-// const listen_input_user=document.getElementById('items_add');
-// const listen_my_button=document.getElementById('Add_buttons');
-// const get_user_data=document.getElementById('list_data');
+const listen_input_user=document.getElementById('items_add');
+const listen_my_button=document.getElementById('Add_buttons');
+const get_user_data=document.getElementById('list_data');
 
-// listen_my_button.addEventListener('click', ()=>{
+listen_my_button.addEventListener('click', ()=>{
 
-//     //create element manually
-//     const list=document.createElement('li');
-//     list.className='datas';
-//     const element=document.createElement('div');
-//     const text=document.createTextNode(listen_input_user.value.toUpperCase());
-//     element.append(text);
+    //create element manually
+    const list=document.createElement('li');
+    list.className='datas';
+    const element=document.createElement('div');
+    const text=document.createTextNode(listen_input_user.value.toUpperCase());
+    element.append(text);
     
 
-//     const first_div=document.createElement('div');
+    const first_div=document.createElement('div');
     
-//     first_div.innerHTML=` <i class="fa fa-trash"></i>`;
-//     first_div.className='dle';
-//     list.append(element,first_div)
-//     get_user_data.append(list);
+    first_div.innerHTML=` <i class="fa fa-trash"></i>`;
+    first_div.className='dle';
+    list.append(element,first_div)
+    get_user_data.append(list);
 
-//     first_div.parentElement.setAttribute("onclick","removingItem(event)")
+    first_div.parentElement.setAttribute("onclick","removingItem(event)")
 
-// //     <li class="datas">
-// //     <div>CARS</div>
-// //     <div onclick="removingItem(event)"  class="dle"> 
-// //       <i class="fa fa-trash"></i>
-// //   </div>
-// })
+//     <li class="datas">
+//     <div>CARS</div>
+//     <div onclick="removingItem(event)"  class="dle"> 
+//       <i class="fa fa-trash"></i>
+//   </div>
+})
 
-// function removingItem(event){
-// let dleItem=event.target.parentNode.parentNode;
-// dleItem.remove();
+function removingItem(event){
+let dleItem=event.target.parentNode.parentNode;
+dleItem.remove();
 
-// }
+}
 
 
 

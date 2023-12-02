@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="h-screen bg-slate-950 flex justify-center  m-0">
+    <main class="flex items-center flex-col gap-3">
+
+        <!-- part-1 -->
+       <header class="flex flex-col items-center justify-center bg-pink-800 px-6 text-white rounded-b-xl p-3 shadow-xl mb-10">
+        <p class="text-slate-200 ">Your current plan:</p>
+        <div class="flex font-bold ">
+        <h4>Starter Trail</h4>
+        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#ffffff"/>
+            </svg>
+            <h4>550MAUs</h4></div>
+       </header>
+
+
+       <!-- part-2 -->
+       <article class="flex flex-col items-center text-white">
+        <h2 class="font-extrabold text-xl">Choose a plan</h2>
+        <div class="flex items-center justify-center text-slate-300">
+            <p>Billed Monthly</p>
+            <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 12C2 8.68629 4.68629 6 8 6H16C19.3137 6 22 8.68629 22 12C22 15.3137 19.3137 18 16 18H8C4.68629 18 2 15.3137 2 12Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#d4056cc1"/>
+                <path d="M18 12C18 13.1046 17.1046 14 16 14C14.8954 14 14 13.1046 14 12C14 10.8954 14.8954 10 16 10C17.1046 10 18 10.8954 18 12Z" fill="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            <p>Billed anually</p>
+        </div>
+
+       </article>
+       
+
+       <!-- part-3 -->
+       <section class="flex flex-row text-white gap-8">
+
+        <!-- first div in section -->
+        <div class="bg-slate-800 p-6 rounded-lg shadow-xl flex flex-col gap-8">
+            <div class="font-bold text-2xl flex flex-col gap-2 items-center">
+                <h4>Starter</h4>
+                <h1>$19</h1>
+            </div>
+            <div class="flex flex-col justify-center text-slate-200">
+                 <ul>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">500 MAUs</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">3 projects</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">unlimited guides</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">unlimited flows</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">unlimited branded themes</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">EMail support</li>
+                </ul>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="px-6 py-1 rounded-md border-2 border-pink-700 hover:bg-pink-700">
+                    choose plan
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="bg-slate-800 p-6 rounded-lg shadow-xl flex flex-col gap-8">
+            <div class="font-bold text-2xl flex flex-col gap-2 items-center">
+                <h4>Pro</h4>
+                <h1>$19 <span>/month</span></h1>
+              
+    <select class="bg-slate-800 border-2 rounded-sm" id="country" name="country">
+      <option value="2500MAus">2500MAus</option>
+      <option value="canada">1500MAus</option>
+      <option value="usa">500MAus</option>
+    </select>
+            </div>
+            <div>
+                <ul>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">All starter features, plus</li>
+                    <li   class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">Unlimited projects</li>
+                    <li   class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">unlimited fully customizable themes</li>
+                    <li   class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">A dedicated Customer Success Manager</li>
+                   
+                </ul>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="px-6 py-1 rounded-md bg-pink-700 hover:bg-slate-500 ">
+                    choose plan
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="bg-slate-800 p-6 rounded-lg shadow-xl flex flex-col gap-8">
+            <div class="font-bold text-2xl flex flex-col gap-2 items-center">
+                <h4>Enterprise</h4>
+                <h1>Let's Talk!</h1>
+            </div>
+            <div>
+                <ul>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">All Pro features</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">Unlimited MAUs</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">Dedicated environment</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">Enterprise account administration</li>
+                    <li  class="before:content-['\2022'] before:text-pink-600 before:font-bold before:inline-block before:w-4 before:ml-[-1em]">Premium support and services</li>
+                </ul>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="px-6 py-1 rounded-md border-2 border-pink-700 hover:bg-pink-700">
+                    choose plan
+                </button>
+            </div>
+        </div>
+
+
+
+       </section>
+    </main>
+    
+</body>
+</html>

@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./PURPLE_LOGIN/*.{html,js}"],
+  content: ["./DECEMBER_ONE/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+    
+    },
   },
   plugins: [],
 }
